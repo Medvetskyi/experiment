@@ -1,0 +1,15 @@
+/* Применится ко всем тегам с классом title */
+.title {
+    font-weight: 500;
+}
+
+/* Применится ко всем тегам с классом text */
+.text {
+    color: brown;
+    font-size: 18px;
+}
+
+/* Применится ко всем тегам с классом link */
+.link {
+    text-decoration: none;
+}
