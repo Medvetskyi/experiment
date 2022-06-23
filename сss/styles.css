@@ -1,15 +1,21 @@
-/* Применится ко всем тегам с классом title */
-.title {
-    font-weight: 500;
+body {
+    font-family: sans-serif;
+    line-height: 1.5;
 }
 
-/* Применится ко всем тегам с классом text */
-.text {
-    color: brown;
-    font-size: 18px;
+.alert {
+    --alert-text-color: black;
+
+    color: var(--alert-text-color);
 }
 
-/* Применится ко всем тегам с классом link */
-.link {
-    text-decoration: none;
+.alert.success {
+    --alert-text-color: green;
+}
+
+.alert.warning {
+    --alert-text-color: orange;
+}
+.alert.error {
+    --alert-text-color: red;
 }
