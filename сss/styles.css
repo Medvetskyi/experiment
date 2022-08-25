@@ -1,25 +1,19 @@
-.parent {
-  position: relative;
-  max-width: 500px;
-  height: 300px;
-  border: 10px solid #303f9f;
-  border-radius: 10px;
-  background-color: tomato;
-  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
-    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+body {
+  font-family: sans-serif;
+  line-height: 1.5;
 }
 
-.box {
-  width: 100px;
-  height: 100px;
-  border: 25 px solid #ffa000;
-  border-radius: 10px;
-  background-color: yellow;
-  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
-    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
-
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -20%);
+input {
+  padding: 8px;
+  font-family: inherit;
 }
+
+label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 8px;
+}
+
+
+
+Resources
